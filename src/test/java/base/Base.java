@@ -57,6 +57,16 @@ public class Base {
           Select(driver.findElement(by)); select.selectByVisibleText(name);
 	 }
 
+ 	 public static void dropDownvalue01(By by,String name) { 
+		  Select select = new
+          Select(driver.findElement(by)); select.selectByVisibleText(name);
+	 }
+	
+	public static void click01(By by) {
+
+		driver.findElement( by ).click();
+	}
+
 
 	
 	public static void click02(By by) {
