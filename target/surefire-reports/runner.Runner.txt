@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.501 s <<< FAILURE! - in runner.Runner
+runner.Runner.initializationError  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/abubacker-88-microtech/microtech/src/test/resources/features/Login%20Functionality%20Verification.feature
+(4:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario : Login as a Customer'
+(5:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Given I am in Landing Home Page'
+(6:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When I Click on Login'
+(7:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then I will be in Login Page'
+(8:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And Click Customer Login'
+(9:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then I enter User Id "david@gmail.com"'
+(10:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And I enter Password "1234"'
+(11:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When I click Login Button'
+(12:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then I will see Customer Home Page'
+(13:0): unexpected end of file, expected: #TagLine, #RuleLine, #Comment, #Empty
+
