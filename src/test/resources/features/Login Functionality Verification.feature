@@ -1,7 +1,7 @@
 Feature: Login Functionality Verification
 
 @smoke
-Scenario Outline: Login as a Customer
+Scenario : Login as a Customer
 Given I am in Landing Home Page
 When I Click on Login
 Then I will be in Login Page
