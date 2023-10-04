@@ -58,6 +58,14 @@ public class Base {
 	 }
 
 
+	public static void click01(By by) {
+
+		driver.findElement( by ).click();
+	}
+	public static void click02(By by) {
+
+		driver.findElement( by ).click();
+	}
 
 	
 }
