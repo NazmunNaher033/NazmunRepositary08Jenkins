@@ -56,8 +56,15 @@ public class Base {
 		  Select select = new
           Select(driver.findElement(by)); select.selectByVisibleText(name);
 	 }
+		
+	public static void click04(By by) {
 
+		driver.findElement( by ).click();
+	}	
+	public static void click08(By by) {
 
+		driver.findElement( by ).click();
+	}
 	
 	public static void click02(By by) {
 
